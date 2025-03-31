@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0EBC73F4-2659-4B68-926A-1EDFF0DD87E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "src\Core\Core.csproj", "{8A3600C7-99DC-4703-8AE9-E74A451561CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6C608212-B26D-48BB-8079-6BAE13147019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Tests", "test\Core.Tests\Core.Tests.csproj", "{60344001-69F4-48EB-A967-303D9F0CCCB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Api", "src\Adapter.Api\Adapter.Api.csproj", "{02BBF32F-C78E-4E0A-924C-96134A0FCA31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.Api.Tests", "test\Adapter.Api.Tests\Adapter.Api.Tests.csproj", "{62400D00-7621-44BA-8E87-6718B48ACED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.PostgreSQL", "src\Adapter.PostgreSQL\Adapter.PostgreSQL.csproj", "{AA4421A8-2019-40D9-8819-E6936CC3BCA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter.PostgreSQL.Tests", "test\Adapter.PostgreSQL.Tests\Adapter.PostgreSQL.Tests.csproj", "{22FF0AD1-42BB-496B-AF9E-AF11F780E66A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A3600C7-99DC-4703-8AE9-E74A451561CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3600C7-99DC-4703-8AE9-E74A451561CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3600C7-99DC-4703-8AE9-E74A451561CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3600C7-99DC-4703-8AE9-E74A451561CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60344001-69F4-48EB-A967-303D9F0CCCB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60344001-69F4-48EB-A967-303D9F0CCCB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60344001-69F4-48EB-A967-303D9F0CCCB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60344001-69F4-48EB-A967-303D9F0CCCB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BBF32F-C78E-4E0A-924C-96134A0FCA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BBF32F-C78E-4E0A-924C-96134A0FCA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BBF32F-C78E-4E0A-924C-96134A0FCA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BBF32F-C78E-4E0A-924C-96134A0FCA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62400D00-7621-44BA-8E87-6718B48ACED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62400D00-7621-44BA-8E87-6718B48ACED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62400D00-7621-44BA-8E87-6718B48ACED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62400D00-7621-44BA-8E87-6718B48ACED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4421A8-2019-40D9-8819-E6936CC3BCA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4421A8-2019-40D9-8819-E6936CC3BCA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4421A8-2019-40D9-8819-E6936CC3BCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4421A8-2019-40D9-8819-E6936CC3BCA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FF0AD1-42BB-496B-AF9E-AF11F780E66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FF0AD1-42BB-496B-AF9E-AF11F780E66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FF0AD1-42BB-496B-AF9E-AF11F780E66A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FF0AD1-42BB-496B-AF9E-AF11F780E66A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A3600C7-99DC-4703-8AE9-E74A451561CB} = {0EBC73F4-2659-4B68-926A-1EDFF0DD87E0}
+		{60344001-69F4-48EB-A967-303D9F0CCCB3} = {6C608212-B26D-48BB-8079-6BAE13147019}
+		{02BBF32F-C78E-4E0A-924C-96134A0FCA31} = {0EBC73F4-2659-4B68-926A-1EDFF0DD87E0}
+		{62400D00-7621-44BA-8E87-6718B48ACED0} = {6C608212-B26D-48BB-8079-6BAE13147019}
+		{AA4421A8-2019-40D9-8819-E6936CC3BCA8} = {0EBC73F4-2659-4B68-926A-1EDFF0DD87E0}
+		{22FF0AD1-42BB-496B-AF9E-AF11F780E66A} = {6C608212-B26D-48BB-8079-6BAE13147019}
+	EndGlobalSection
+EndGlobal
